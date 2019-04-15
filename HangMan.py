@@ -22,7 +22,6 @@ def setup():
 
 def play_game():
     global sequence_of_guessed_letters
-    #Only use words that are 3 or more letters to ensure that legs are drawn
     while chances < len(word)+4:
         print(listOfUnderscores)
         potential_letter = input("Please choose a letter: ")
